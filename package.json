@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "env-cmd -f ./config/dev.env node --watch src/index.js",
+    "build": "node src/index.js",
     "start": "node src/index.js"
   },
   "keywords": [],
