@@ -23,7 +23,7 @@ const io = socketio(server);
     // io.to.emit send to a specific room without sending to other rooms
     // socket.broad.to.emit send event to everyone except to a speicif client and limited to a specific chat room.
 
-const PORT = process.env.PORT || 3050
+const PORT = 3050
 const publicDirectoryPath = path.join(__dirname, "../public");
 app.use(express.static(publicDirectoryPath));
 
